@@ -1,0 +1,56 @@
+/* Estilos para o formulário de cadastro */
+body {
+    background-color: #f0f8ff; /* Azul claro para representar o oceano */
+    font-family: Arial, sans-serif;
+    background-image: url('Pictures/cadastro_imagem.jpg'); /*  imagem de fundo */
+    background-size: cover; /* cobrir todo o fundo */
+    background-position: center center; /* centralizar a imagem */
+   }
+   
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o formulário */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff; /* Azul para destacar o título */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #0056b3; /* Azul mais escuro para o botão */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #004080; /* Cor mais escura ao passar o mouse */
+}
